@@ -1,0 +1,44 @@
+
+
+
+.title0{
+	color: aqua;
+	text-align: center;
+	font-size: 60px;
+}
+.title1{
+	color: blue;
+	font-size: 30px;
+	text-align: right;
+}
+.title2{
+	color: coral;
+	text-align: center;
+}
+.title3{
+	color: crimson;
+	font-size: 30px;
+}
+.title4{
+	color: blueviolet;
+	font-size: 20px;
+}
+.image1{
+	width: 350px;
+	border-radius: 20px;
+}
+.fishy1{
+	color: rgb(10, 10, 170);
+	font-size: 40px;
+}
+.image2{
+	width: 300px;
+}
+.link1{
+	color: chartreuse;
+	font-size: 25px;
+}
+.link2{
+	font-size: 27px;
+	color:rgb(42, 233, 42)
+}
