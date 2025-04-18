@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #fff;
+}
+
+.promo {
+    background-color: #000000;
+    background: url("img/Rose.png") center center / cover no-repeat;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1420px;
+}

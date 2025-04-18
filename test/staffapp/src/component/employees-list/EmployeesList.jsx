@@ -1,5 +1,5 @@
 import EmployeesListItem from "../employees-list-item/EmployeesListItem"
-
+import './EmployeesList.css'
 
 const EmployeesList = ({ data }) => {
 
@@ -15,7 +15,7 @@ const EmployeesList = ({ data }) => {
     })
 
     return (
-        <ul>
+        <ul className="list-group app-list">
             {elements}
         </ul>
     )

@@ -1,0 +1,74 @@
+.list-group-item {
+    padding: 20px 20px;
+    border-bottom: 1px solid #3d5a80;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item span {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+.list-group-item button {
+    border: none;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    font-size: 17px; 
+    margin: 3px;
+    display: flex;
+}
+
+.list-group-item-wrap {
+    display: flex;
+}
+
+.list-group-item-input {
+    border: none;
+    text-align: right;
+}
+
+
+.list-group-item .fa-star{
+    width: 35px;
+    height: 35px;
+    color: #f6ff00;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.3s;
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+
+.list-group-item.like .fa-star {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.list-group-item .fa-trash {
+    width: 35px;
+    height: 35px;
+    color: #a50000;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.list-group-item .fa-cookie {
+    width: 35px;
+    height: 35px;
+    color: #e89b01;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.increase {
+    color: #e09f3e;
+}
